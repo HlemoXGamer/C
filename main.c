@@ -1,19 +1,11 @@
-
-// Program Name
 #include <stdio.h>
-#include <stdlib.h>
 
-// Main Function That Begin Program Execution
-int main(void)
+int main()
 {
+    int m;
+    int k;
+    scanf("%d %d", &m, &k);
 
-	// Initialzation Phase
-
-	// Processing Phase
-
-	// Termination Phase
-
-
-   return 0;
-
-} // End Main
+    printf("%d", ((m * k) / 2));
+    return 0;
+}
